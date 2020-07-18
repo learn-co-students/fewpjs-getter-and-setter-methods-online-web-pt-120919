@@ -14,12 +14,4 @@ class Circle {
     return Math.PI * (this.radius ** 2)
   }
 
-  set diameter(diameterIn) {
-    this.radius = diameterIn / 2
-  }
-
-  set circumference(circumferenceIn) {
-    this.radius = circumferenceIn / Math.PI / 2
- }
-
 }

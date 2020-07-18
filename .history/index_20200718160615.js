@@ -15,11 +15,11 @@ class Circle {
   }
 
   set diameter(diameterIn) {
-    this.radius = diameterIn / 2
+    this._radius = diameterIn / 2
   }
 
   set circumference(circumferenceIn) {
-    this.radius = circumferenceIn / Math.PI / 2
+    this._radius = circumference / Math.PI / 2
  }
 
 }

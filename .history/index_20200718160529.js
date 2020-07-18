@@ -18,8 +18,8 @@ class Circle {
     this.radius = diameterIn / 2
   }
 
-  set circumference(circumferenceIn) {
-    this.radius = circumferenceIn / Math.PI / 2
- }
+  set circumference(circumference) {
+    this._circumference = circumference
+  }
 
 }
