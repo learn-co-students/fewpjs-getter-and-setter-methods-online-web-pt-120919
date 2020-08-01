@@ -4,12 +4,12 @@ class Circle {
         this.radius = radius;
     }
 
-    set diameter(number) {
-        this._diameter = 
+    set diameter(diameter) {
+        this.radius = diameter / 2;
     }
     
-    set circumference(number) {
-        this._circumference = 
+    set circumference(circumference) {
+        this.radius = circumference / (Math.PI * 2);
     }
 
     get diameter() {
@@ -33,5 +33,9 @@ class Circle {
     // }
  
 }
+
+// let newCircle = new Circle(8)
+// newCircle.circumference
+
 
 // for line 26 return Math.PI * Math.pow(this.radius, 2);
